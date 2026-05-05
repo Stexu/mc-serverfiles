@@ -1,3 +1,4 @@
+'''
 services:
   mc:
     image: 'itzg/minecraft-server:latest'
@@ -17,3 +18,4 @@ services:
       TZ: Europe/Berlin
     volumes:
       - './data:/data'
+'''
